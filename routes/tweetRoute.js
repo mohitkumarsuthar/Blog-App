@@ -11,3 +11,9 @@ router.route("/alltweets/:id").get(isAuthenticated, getAllTweets);
 router.route("/followingtweets/:id").get(isAuthenticated, getFollowingTweets);
 
 export default router;
+// git init
+// git add README.md
+// git commit -m "first commit"
+// git branch -M main
+// git remote add origin https://github.com/mohitkumarsuthar/twitter.git
+// git push -u origin main
